@@ -1,0 +1,31 @@
+div {
+  display: inline-block;
+  transition: width 5s linear, height 2s linear, background-color 2s linear, top 5s;
+}
+
+.box {
+  /*display: inline-block;*/
+  position: relative;
+  width: 200px;
+  height: 300px;
+  top: 0;
+  background-color: rgb(233, 126, 37);
+  /*transition: width 5s;*/
+}
+
+.move {
+  top: 400px;
+}
+
+.sth {
+  /*display: inline-block;*/
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+.expanded {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+}
