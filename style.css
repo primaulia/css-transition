@@ -1,6 +1,16 @@
 div {
   display: inline-block;
-  transition: width 5s linear, height 2s linear, background-color 2s linear, top 5s;
+  transition: top 0.04s, left 0.04s;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(74, 149, 124);
+  border-radius: 999px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .box {
